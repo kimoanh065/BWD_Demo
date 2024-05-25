@@ -84,7 +84,7 @@ body {
   background: rgba(0, 0, 0, 0.5); 
 }
 
-.owl-carousel.home-slider .slider-item .slider-text {
+.owl-carousel .home-slider .slider-item .slider-text {
   position: relative;
   z-index: 2;
   text-align: center;
@@ -109,6 +109,7 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   line-height: 1.2;
+  color: white;
 }
 
 .owl-carousel.home-slider .owl-nav {

@@ -41,3 +41,13 @@
 	carousel();
 
 })(jQuery);
+
+document.addEventListener('DOMContentLoaded', function() {
+	    const menuIcon = document.querySelector('.inner-bar a');
+	    const dropdownMenu = document.querySelector('.dropdown-menu');
+
+	    menuIcon.addEventListener('click', function(event) {
+	        event.preventDefault();
+	        dropdownMenu.classList.toggle('show');
+	    });
+});
